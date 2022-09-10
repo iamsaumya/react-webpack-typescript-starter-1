@@ -16,4 +16,7 @@ module.exports = merge(commonConfig, {
     react: "React",
     "react-dom": "ReactDOM",
   },
+  optimization: {
+    minimize: false,
+  },
 });
